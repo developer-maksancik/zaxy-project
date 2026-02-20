@@ -1,7 +1,7 @@
-# 🛠 Xa-Framework (v0.1.0)
+# 🛠 zaxy-Framework (v0.1.1)
 
-Xa is a powerful Python utility library that simplifies standard boilerplate code into clean, one-line commands.
-Xa — это производительная библиотека для Python, превращающая громоздкий стандартный код в чистые однострочные команды.
+zaxy is a powerful Python utility library that simplifies standard boilerplate code into clean, one-line commands.
+zaxy — это производительная библиотека для Python, превращающая громоздкий стандартный код в чистые однострочные команды.
 
 [EN] Developed by maks39P. Created on February 8, 2026, by a 14-year-old developer with minimal use of AI.
 [RU] Разработчик: maks39P. Создано 8 февраля 2026 г. 14-летним разработчиком с минимальным использованием ИИ.
@@ -9,9 +9,12 @@ Xa — это производительная библиотека для Pytho
 -----------------------------------------------------------
 EN | Installation
 -----------------------------------------------------------
-pip install xa
+pip install zaxy
 
 EN | Core Documentation
+
+0.Framework initialization inside the code (required)
+- connect()
 
 1. Console Output & Control
 - tx(*args): Shortcut for print().
@@ -39,9 +42,12 @@ EN | Core Documentation
 -----------------------------------------------------------
 RU | Инструкция по использованию
 -----------------------------------------------------------
-pip install xa
+pip install zaxy
 
 RU | Техническая документация
+
+0.подключение фраемворка внутри кода(обязательно)
+- connect()
 
 1. Вывод и управление консолью
 - tx(*args): Сокращение для print().

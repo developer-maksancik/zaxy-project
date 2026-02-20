@@ -40,6 +40,11 @@ def sh(_list):
     _random.shuffle(_list)
     return _list
 
+def connect():
+    _caller_globals = _sys._getframe(1).f_globals
+    global globals
+    globals = lambda: _caller_globals
+
 def _xa_wrapper_logic():
     if 'md' in globals():
         __original_md = globals()['md']
