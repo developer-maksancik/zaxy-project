@@ -4,18 +4,36 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zaxy"
-version = "0.2.1"
+version = "0.3.0"         
 authors = [
-  { name="developer-maksancik", email="dekabri2316@gmail.com" },
+    { name = "developer-maksancik", email = "dekabri2316@gmail.com" },
 ]
-description = "Lightweight Python utility for efficient code writing."
+description = "Lightweight Python utility library: one-liner helpers for beginners (smart input, print shortcuts, files, random)"
 readme = "README.md"
 requires-python = ">=3.8"
+license = { text = "MIT" }
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+keywords = [
+    "python utilities",
+    "beginner python",
+    "one-liner python",
+    "simplify input",
+    "easy console",
+    "file helpers",
+    "random shortcuts",
+    "python helpers",
+    "zaxy",
+    "zaxy framework",
+]
+
+[project.urls]
+Homepage = "https://github.com/developer-maksancik/zaxy-project"
+Repository = "https://github.com/developer-maksancik/zaxy-project"
+Issues = "https://github.com/developer-maksancik/zaxy-project/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

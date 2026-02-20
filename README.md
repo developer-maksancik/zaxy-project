@@ -1,4 +1,4 @@
-# 🛠 zaxy-Framework (v0.2.1)
+# 🛠 zaxy-Framework (v0.3.0)
 
 zaxy is a powerful Python utility library that simplifies standard boilerplate code into clean, one-line commands.
 zaxy — это производительная библиотека для Python, превращающая громоздкий стандартный код в чистые однострочные команды.
@@ -39,6 +39,33 @@ EN | Core Documentation
 - rc(list): Returns random element from list (choice).
 - sh(list): Shuffles list and returns it.
 
+5. Ordinary Python
+
+print("What is your name?")
+name = input("> ")
+print("How old are you?")
+while True:
+    try:
+        age = int(input("> "))
+        break
+    except:
+        print("Please enter a number!")
+print(f"Hello, {name}! You are {age} years old.")
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+input("Press Enter to continue...")
+
+5.5 Python with zaxy
+
+from zaxy import *
+connect()
+
+ir("name", "What is your name? > ")
+irn("age", "How old are you? > ")
+tx(f"Hello, {name}! You are {age} years old.")
+clr()
+pau("Press Enter to continue...")
+
 -----------------------------------------------------------
 RU | Инструкция по использованию
 -----------------------------------------------------------
@@ -71,6 +98,32 @@ RU | Техническая документация
 - rn(a, b): Случайное целое число от a до b.
 - rc(список): Случайный выбор элемента из списка.
 - sh(список): Перемешивание элементов списка (shuffle).
+
+5. обычный пайтон
+
+print("Как тебя зовут?")
+name = input("> ")
+print("Сколько лет?")
+while True:
+    try:
+        age = int(input("> "))
+        break
+    except:
+        print("Введи число!")
+print(f"Привет, {name}! Тебе {age}")
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+input("Нажми Enter...")
+
+5.5 пайтон с zaxy
+
+from zaxy import *
+connect()
+ir("name", "Как тебя зовут? > ")
+irn("age", "Сколько лет? > ")
+tx(f"Привет, {name}! Тебе {age}")
+clr()
+pau("Нажми Enter...")
 
 -----------------------------------------------------------
 Contacts / Контакты:
