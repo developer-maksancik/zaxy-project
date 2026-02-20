@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zaxy"
-version = "0.1.1"
+version = "0.2.1"
 authors = [
   { name="developer-maksancik", email="dekabri2316@gmail.com" },
 ]

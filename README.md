@@ -1,4 +1,4 @@
-# 🛠 zaxy-Framework (v0.1.1)
+# 🛠 zaxy-Framework (v0.2.1)
 
 zaxy is a powerful Python utility library that simplifies standard boilerplate code into clean, one-line commands.
 zaxy — это производительная библиотека для Python, превращающая громоздкий стандартный код в чистые однострочные команды.
