@@ -3,8 +3,8 @@
 zaxy is a powerful Python utility library that simplifies standard boilerplate code into clean, one-line commands.
 zaxy — это производительная библиотека для Python, превращающая громоздкий стандартный код в чистые однострочные команды.
 
-[EN] Developed by maks39P. Created on February 8, 2026, by a 14-year-old developer with minimal use of AI.
-[RU] Разработчик: maks39P. Создано 8 февраля 2026 г. 14-летним разработчиком с минимальным использованием ИИ.
+[EN] Developed by maks-1212. Created on February 8, 2026, by a 14-year-old developer with minimal use of AI.
+[RU] Разработчик: maks-1212. Создано 8 февраля 2026 г. 14-летним разработчиком с минимальным использованием ИИ.
 
 -----------------------------------------------------------
 EN | Installation
