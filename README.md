@@ -1,3 +1,6 @@
+PROJECT IS NO LONGER SUPPORTED!!!
+ПРОЕКТ НЕ ПОДЕРЖИВАЕТСЯ!!!
+
 # 🛠 zaxy-Framework (v0.3.0)
 
 zaxy is a powerful Python utility library that simplifies standard boilerplate code into clean, one-line commands.
